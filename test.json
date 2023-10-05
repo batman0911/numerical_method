@@ -1,0 +1,461 @@
+{
+	"schema": {
+		"type": "struct",
+		"fields": [
+			{
+				"type": "struct",
+				"fields": [
+					{
+						"type": "string",
+						"optional": false,
+						"field": "id"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "action_group_id"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "client_id"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "source_type"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "destination_type"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "action_code"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "name"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "description"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "message"
+					},
+					{
+						"type": "int64",
+						"optional": true,
+						"field": "point"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "priority_point"
+					},
+					{
+						"type": "bytes",
+						"optional": true,
+						"name": "org.apache.kafka.connect.data.Decimal",
+						"version": 1,
+						"parameters": {
+							"scale": "3",
+							"connect.decimal.precision": "3"
+						},
+						"field": "rate"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "status"
+					},
+					{
+						"type": "int16",
+						"optional": false,
+						"default": 1,
+						"field": "display"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "game_id"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"name": "io.debezium.time.ZonedTimestamp",
+						"version": 1,
+						"field": "start_date"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"name": "io.debezium.time.ZonedTimestamp",
+						"version": 1,
+						"field": "end_date"
+					},
+					{
+						"type": "string",
+						"optional": false,
+						"default": "auto",
+						"field": "point_mode"
+					},
+					{
+						"type": "boolean",
+						"optional": false,
+						"default": false,
+						"field": "limited"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"name": "io.debezium.time.ZonedTimestamp",
+						"version": 1,
+						"field": "created_at"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"name": "io.debezium.time.ZonedTimestamp",
+						"version": 1,
+						"field": "updated_at"
+					}
+				],
+				"optional": true,
+				"name": "loyalty_cdc.loyalty.ActionMap.Value",
+				"field": "before"
+			},
+			{
+				"type": "struct",
+				"fields": [
+					{
+						"type": "string",
+						"optional": false,
+						"field": "id"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "action_group_id"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "client_id"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "source_type"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "destination_type"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "action_code"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "name"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "description"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "message"
+					},
+					{
+						"type": "int64",
+						"optional": true,
+						"field": "point"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "priority_point"
+					},
+					{
+						"type": "bytes",
+						"optional": true,
+						"name": "org.apache.kafka.connect.data.Decimal",
+						"version": 1,
+						"parameters": {
+							"scale": "3",
+							"connect.decimal.precision": "3"
+						},
+						"field": "rate"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "status"
+					},
+					{
+						"type": "int16",
+						"optional": false,
+						"default": 1,
+						"field": "display"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "game_id"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"name": "io.debezium.time.ZonedTimestamp",
+						"version": 1,
+						"field": "start_date"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"name": "io.debezium.time.ZonedTimestamp",
+						"version": 1,
+						"field": "end_date"
+					},
+					{
+						"type": "string",
+						"optional": false,
+						"default": "auto",
+						"field": "point_mode"
+					},
+					{
+						"type": "boolean",
+						"optional": false,
+						"default": false,
+						"field": "limited"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"name": "io.debezium.time.ZonedTimestamp",
+						"version": 1,
+						"field": "created_at"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"name": "io.debezium.time.ZonedTimestamp",
+						"version": 1,
+						"field": "updated_at"
+					}
+				],
+				"optional": true,
+				"name": "loyalty_cdc.loyalty.ActionMap.Value",
+				"field": "after"
+			},
+			{
+				"type": "struct",
+				"fields": [
+					{
+						"type": "string",
+						"optional": false,
+						"field": "version"
+					},
+					{
+						"type": "string",
+						"optional": false,
+						"field": "connector"
+					},
+					{
+						"type": "string",
+						"optional": false,
+						"field": "name"
+					},
+					{
+						"type": "int64",
+						"optional": false,
+						"field": "ts_ms"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"name": "io.debezium.data.Enum",
+						"version": 1,
+						"parameters": {
+							"allowed": "true,last,false,incremental"
+						},
+						"default": "false",
+						"field": "snapshot"
+					},
+					{
+						"type": "string",
+						"optional": false,
+						"field": "db"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "sequence"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "table"
+					},
+					{
+						"type": "int64",
+						"optional": false,
+						"field": "server_id"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "gtid"
+					},
+					{
+						"type": "string",
+						"optional": false,
+						"field": "file"
+					},
+					{
+						"type": "int64",
+						"optional": false,
+						"field": "pos"
+					},
+					{
+						"type": "int32",
+						"optional": false,
+						"field": "row"
+					},
+					{
+						"type": "int64",
+						"optional": true,
+						"field": "thread"
+					},
+					{
+						"type": "string",
+						"optional": true,
+						"field": "query"
+					}
+				],
+				"optional": false,
+				"name": "io.debezium.connector.mysql.Source",
+				"field": "source"
+			},
+			{
+				"type": "string",
+				"optional": false,
+				"field": "op"
+			},
+			{
+				"type": "int64",
+				"optional": true,
+				"field": "ts_ms"
+			},
+			{
+				"type": "struct",
+				"fields": [
+					{
+						"type": "string",
+						"optional": false,
+						"field": "id"
+					},
+					{
+						"type": "int64",
+						"optional": false,
+						"field": "total_order"
+					},
+					{
+						"type": "int64",
+						"optional": false,
+						"field": "data_collection_order"
+					}
+				],
+				"optional": true,
+				"name": "event.block",
+				"version": 1,
+				"field": "transaction"
+			}
+		],
+		"optional": false,
+		"name": "loyalty_cdc.loyalty.ActionMap.Envelope",
+		"version": 1
+	},
+	"payload": {
+		"before": {
+			"id": "01F9XH8NH9ZRDH95PGBWP2RS5W",
+			"action_group_id": null,
+			"client_id": "01EVBKDSKSMW9083R6AKPM0E1G",
+			"source_type": "client",
+			"destination_type": "shop",
+			"action_code": "APPMOSHOP_RATE_CUS_GOOD",
+			"name": "Shop đánh giá khách hàng tốt",
+			"description": "Shop đánh giá khách hàng tốt",
+			"message": "Shop đánh giá khách hàng tốt",
+			"point": 10,
+			"priority_point": "badge: -100",
+			"rate": "AA==",
+			"status": "active",
+			"display": 1,
+			"game_id": null,
+			"start_date": "2021-07-26T00:00:00Z",
+			"end_date": "2022-07-31T00:00:00Z",
+			"point_mode": "auto",
+			"limited": true,
+			"created_at": "2021-07-06T16:09:28Z",
+			"updated_at": "2021-07-26T17:24:30Z"
+		},
+		"after": {
+			"id": "01F9XH8NH9ZRDH95PGBWP2RS5W",
+			"action_group_id": null,
+			"client_id": "01EVBKDSKSMW9083R6AKPM0E1G",
+			"source_type": "client",
+			"destination_type": "shop",
+			"action_code": "APPMOSHOP_RATE_CUS_GOOD",
+			"name": "Shop đánh giá khách hàng tốt",
+			"description": "Shop đánh giá khách hàng tốt",
+			"message": "Shop đánh giá khách hàng tốt",
+			"point": 11,
+			"priority_point": "badge: -100",
+			"rate": "AA==",
+			"status": "active",
+			"display": 1,
+			"game_id": null,
+			"start_date": "2021-07-26T00:00:00Z",
+			"end_date": "2022-07-31T00:00:00Z",
+			"point_mode": "auto",
+			"limited": true,
+			"created_at": "2021-07-06T16:09:28Z",
+			"updated_at": "2021-07-26T17:24:30Z"
+		},
+		"source": {
+			"version": "2.3.0.Final",
+			"connector": "mysql",
+			"name": "loyalty_cdc",
+			"ts_ms": 1696502885000,
+			"snapshot": "false",
+			"db": "loyalty",
+			"sequence": null,
+			"table": "ActionMap",
+			"server_id": 1,
+			"gtid": null,
+			"file": "binlog.000003",
+			"pos": 337413117,
+			"row": 0,
+			"thread": 72766,
+			"query": null
+		},
+		"op": "u",
+		"ts_ms": 1696502885805,
+		"transaction": null
+	}
+}
