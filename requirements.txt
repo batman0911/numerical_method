@@ -9,3 +9,4 @@ plotly==5.17.0
 prince==0.12.1
 pyreadr==0.4.9
 seaborn==0.13.0
+scipy==1.11.3
